@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Boids demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <nav class="clearfix">
+      <a href="#" class="brand-link">
+        <img src="assets/logo.png" alt="logo" />
+        Brain Storm
+      </a>
+      <ul class="right nav-links">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </nav>
+    <section class="header">
+      <canvas id="boids" width="800" height="500">
+      </canvas>
+      <div class="overlay">
+        <div class="intro-wrapper">
+          <div class="intro">
+            <span class="header-title">brain storm</span>
+            <span class="header-msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+            <div class="header-signup">
+              <input type="text" placeholder="E-mail"><button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block brainstorm container">
+      <h4 class="text-center title uppercased">Train your brain</h4>
+      <div class="gallery text-center">
+        <img src="http://www.placecage.com/200/200" alt="1" />
+        <img src="http://www.placecage.com/200/200" alt="1" />
+        <img src="http://www.placecage.com/200/200" alt="1" />
+        <img src="http://www.placecage.com/200/200" alt="1" />
+      </div>
+      <p class="text-center">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </section>
+    <section class="block courses block-blue">
+      <div class="container">
+        <h4 class="text-center uppercased">Courses</h4>
+        <div class="courses-wrapper">
+          <ul class="courses-left">
+            <li><a href="#">Data Science</a></li>
+            <li><a href="#">Big Data</a></li>
+            <li><a href="#">Machine Learning</a></li>
+            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Digital Marketing</a></li>
+            <li><a href="#">Electronics</a></li>
+          </ul>
+          <ul class="courses-right">
+            <li><a href="#">Internet of Things</a></li>
+            <li><a href="#">R Programming</a></li>
+            <li><a href="#">Python Programming</a></li>
+            <li><a href="#">Cryptography</a></li>
+            <li><a href="#">Introduction to Public Speak</a></li>
+            <li><a href="#">Calculus</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="block price">
+      <div class="container">
+        <div class="accounts">
+          <div class="account">
+            <div class="plan">
+              <span class="plan-name">Free</span>
+              <div class="plan-cost-per">
+                <span class="plan-cost">Free</span>
+                <span class="plan-per">Per Month</span>
+              </div>
+              <span class="plan-feature">Lorem ipsum</span>
+              <span class="plan-feature">dolor sit amet</span>
+              <span class="plan-feature">consectetur</span>
+              <span class="plan-feature">Lorem ipsum</span>
+              <span class="plan-feature">dolor sit amet</span>
+              <button class="plan-subscribe">Subscribe</button>
+            </div>
+          </div>
+          <div class="account">
+            <div class="plan">
+              <span class="plan-name">Premium</span>
+              <div class="plan-cost-per">
+                <span class="plan-cost">$5</span>
+                <span class="plan-per">Per Month</span>
+              </div>
+              <span class="plan-feature">Lorem ipsum</span>
+              <span class="plan-feature">dolor sit amet</span>
+              <span class="plan-feature">consectetur</span>
+              <button class="plan-subscribe plan-subscribe-2">Subscribe</button>
+            </div>
+          </div>
+          <div class="account">
+            <div class="plan">
+              <span class="plan-name">Gold</span>
+              <div class="plan-cost-per">
+                <span class="plan-cost">$10</span>
+                <span class="plan-per">Per Month</span>
+              </div>
+              <span class="plan-feature">Lorem ipsum</span>
+              <span class="plan-feature">dolor sit amet</span>
+              <span class="plan-feature">consectetur</span>
+              <button class="plan-subscribe plan-subscribe-1">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container text-center">
+        Place for a copyright, etc.
+      </div>
+    </footer>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/boids.js"></script>
+  </body>
+</html>
