@@ -29,7 +29,7 @@ function Boids(container, totalBoids, opts) {
   this.accelerationLimit = Math.pow(opts.accelerationLimit || 1, 2);
   this.speedLimit = Math.pow(opts.speedLimit || 1.214, 2);
   this.boidRadius = opts.boidRadius || 2;
-  this.padding = opts.padding || 0;
+  this.padding = opts.padding || -30;
   this.pushForce = opts.pushForce || 20;
   this.boidColor = opts.boidColor || "rgb(120, 135, 171)";
   this.bgColor = opts.bgColor || "rgba(6, 21, 57, 0.12)";

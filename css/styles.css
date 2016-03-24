@@ -413,3 +413,27 @@ footer {
   color: #aaa;
   font-size: 14px;
 }
+
+footer ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+footer li:first-child {
+  margin-left: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+footer a:hover {
+  color: #fff;
+}
